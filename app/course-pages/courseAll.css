@@ -1,0 +1,133 @@
+
+/* SCROLL BAR STYLE CLASS */
+.scroll-style::-webkit-scrollbar{
+    width: 10px;
+    background: transparent;
+  }
+  .scroll-style::-webkit-scrollbar-thumb{
+    background: linear-gradient(#7a14a2, #0073ffd0);
+    border-radius: 10px;
+  }
+  
+  
+  /* {---------------------------------------- COURSE HOME & COURSE DETAILS -----------------------------------------} */
+    html::-webkit-scrollbar{
+      width: 10px;
+      background: transparent;
+    }
+    html::-webkit-scrollbar-thumb{
+      background: linear-gradient(#7a14a2, #0073ffd0);
+      border-radius: 10px;
+    }
+  
+  /* PROGRESSION BUTTONS ( HOME LIST ) */
+    .active-pg{
+        position: relative;
+    }
+    .active-pg::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        bottom: -4px;
+        border-radius: 2px;
+        background: linear-gradient(to right, purple, #0062ff) border-box;
+    }
+  
+  /* SEARCH BAR */
+    .search-bar{
+        border: 2px solid transparent;
+        border-radius: 20px;
+        background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, purple, #0062ff) border-box;
+    }
+  
+  /* CATEGORY BUTTONS */
+    .active-catalog{
+        background: #9f1e9f;
+        color: #fff;
+    }
+  
+  
+  
+  /* LEARN MORE ( COURSE DETAIL ) */
+    .learn-more .image-container{
+        position: relative;
+        z-index: 10;
+    }
+    .learn-more .image-container::before{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #530478;
+        border-radius: 20px;
+        top: -15px;
+        left: -15px;
+    }
+    .learn-more .image-container::after{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #0952c7;
+        border-radius: 20px;
+        bottom: -15px;
+        right: -15px;
+        z-index: -1;
+    }
+    /* text */
+    .learn-more .text-container{
+        position: relative;
+        z-index: 10;
+    }
+    .learn-more .text-container::before{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #530478;
+        border-radius: 20px;
+        top: 0;
+        left: -10px;
+        z-index: -1;
+    }
+    .learn-more .text-container p{
+        position: relative;
+        z-index: 10;
+    }
+    .learn-more .text-container .text-briefing .think::before{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #530478;
+        border-radius: 20px;
+        bottom: 0;
+        right: 10px;
+        z-index: -1;
+    }
+  
+  /* {---------------------------------------- [ ENDING ] COURSE HOME & COURSE DETAILS -----------------------------------------} */
+  
+  
+  /* {---------------------------------------- COURSE PLAYLIST -----------------------------------------} */
+    .course-playlist .side-tracker::-webkit-scrollbar{
+      width: 10px;
+      background: transparent;
+    }
+    .course-playlist .side-tracker::-webkit-scrollbar-thumb{
+      background: linear-gradient(#1419a2, #0073ffd0);
+      border-radius: 10px;
+    }
+    .course-playlist .side-tracker .play-list .section-card:nth-of-type(odd){
+      background-color: rgb(254 202 202);
+    }
+    .course-playlist .side-tracker .play-list .section-card:nth-of-type(even){
+      background-color: rgb(186 230 253 / 0.6);
+    }
+    /* .course-playlist .side-tracker .section-card-container .section-card:nth{
+      background-color: rgb(180 83 9 / 0.4);
+    } */
+  /* {---------------------------------------- [ ENDING ] COURSE PLAYLIST -----------------------------------------} */
+  
+  

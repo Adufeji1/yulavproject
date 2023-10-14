@@ -1,0 +1,583 @@
+:root {
+    --background-color: hsla(0, 0%, 100%, 1);
+    --tertiary-color: hsla(0, 0%, 0%, 1);
+    --other-color: hsla(0, 0%, 0%, 0.3);
+    --neutral-color: hsla(0, 0%, 36%, 1);
+    --primary-color: hsla(0, 0%, 0%, 1);
+    --subtle-color:hsla(194, 86%, 54%, 1);
+    --beautiful-color: rgb(198, 199, 224);
+    --gradient-color: hsla(217, 89%, 64%, 0.2);
+    --main-gradient-style: hsla(217, 89%, 64%, 1);
+    --button-color: hsla(217, 89%, 64%, 1);
+    --base-color: rgba(235, 232, 232, 0.767);
+    --vibe-color: hsla(238, 27%, 20%, 1);
+
+}
+
+.nav_background {
+    background-color: var(--background-color);
+    height: 100px;
+}
+
+.img_logo {
+    width: 166px;
+    height: 45px;
+    top: 30px;
+    left: 100px;
+    position: relative;
+}
+
+/* navigation-list- styling */
+.listed_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listed_item li {
+    list-style-type: none;
+}
+
+.second_navlist {
+    display: flex;
+    margin-left: 67px;    
+}
+
+.navlist_fontawesome_style {
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+/* navigation right side styling */
+
+.nav_bell_bg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 352px;
+    top: 12px;
+    border: 2px solid var(--gradient-color);
+}
+
+.nav_bell {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+.profile_bg {
+    width: 233px;
+    height: 80px;
+    border: 2px solid var(--gradient-color);
+    position: absolute;
+    right: 95px;
+    top: 12px;
+}
+
+.profile_img {
+    width: 32px;
+    height: 32px;
+    left: 24px;
+    top: 24px;
+    position: absolute;
+}
+
+.profilename {
+    font-size: 19.2px;
+    right: 24px;
+    position: absolute;
+    top: 24px;
+}
+
+
+/* Checkout styling */
+.checkout_container {
+    background-color: var(--base-color);
+    height: 1000px;
+}
+
+.check_bg {
+    width: 585px;
+    height: 905px;
+    background-color: var(--background-color);
+    position: absolute;
+    top: 168px;
+    left: 100px;
+}
+
+.checkoutheading {
+    font-size: 36px;
+    color: var(--vibe-color);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.checkoutCartType {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    color: var(--vibe-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.paymentchannel {
+    width: 541px;
+    height: 195px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border: 0.002px solid var(--base-color);
+
+}
+
+.paymentImageone, .paymentImagetwo, .paymentImagethree {
+    height: 93px;
+    width: 160px;
+}
+
+/* Form checkout styling */
+.formbg {
+    height: 400px;
+    width: 541px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: hsla(0, 0%, 100%, 1);
+}
+.formlabel {
+    font-size: 16px;
+    font-family: Craftwork Grotesk;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    display: block;
+}
+
+.cardnumberinput, .nameofcardInput {
+    width: 541px;
+    height: 36px;
+    border-radius: 6px;
+    border: 1px solid hsla(0, 0%, 0%, 0.2);
+    padding: 10px;
+    font-family: Craftwork Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nameofCardLabel {
+    width: 541px;
+    height: 19px;
+    font-family: Craftwork Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    margin-top: 30px;
+}
+
+.expirationLabel, .cvcLabel {
+    width: 260px;
+    font-family: Craftwork Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.inputexpirationbg {
+    width: 520px;
+    height: 37px;
+    border-radius: 1px;
+    border: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.expirationInput, .cvcInput {
+    font-family: Craftwork Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    border:1px solid hsla(0, 0%, 0%, 0.2);
+} 
+
+.inlinecheckboxingobg {
+    display: inline;
+    width: 600px;
+    height: 36px;
+    margin-bottom: 30px;
+}
+.checkBoxInfobg {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    border: 1px;
+    margin-top: 34px;
+}
+
+.paragraphsave {
+    font-family: Craftwork Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 2px;
+}
+
+.submitBtn {
+    width: 542px;
+    height: 50px;
+    background-color: hsla(217, 89%, 64%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    border-radius: 8px;
+
+}
+
+
+/* Summary styling */
+.summary_bg {
+    background-color: var(--beautiful-color);
+    height: 760px;
+    width: 520px;
+    position: absolute;
+    right: 30px;
+    top: 168px;
+}
+
+.summaryp {
+    font-family: Craftwork Grotesk;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.bgImageSummary {
+    width: 500px;
+    height: 160px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.bgImageSummarytwo {
+    width: 500px;
+    height: 160px;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+}
+
+.summaryImg {
+    width: 240px;
+    height: 141px;
+    position: absolute;
+    top: 10px;
+}
+
+.summaryparagraph {
+    width: 240px;
+    height: 141px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.summaryfirstp {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+.summarysecondp {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: hsla(0, 0%, 36%, 1);
+}
+
+.summarythirdp {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+.hrstyle {
+    color: hsla(0, 0%, 36%, 1);
+    height: 5px;
+    width: 500px;
+}
+
+
+/* subtotal styling */
+
+.subtotalbg {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin-top: 80px;
+}
+
+.subtotalone, 
+.subtotaltwo,
+.subtotalthree,
+.subtotalfour
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Craftwork Grotesk;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hrsubtotal {
+    margin-bottom: 30px;
+}
+
+
+
+/* educational offer styling */
+.educational_bg {
+    height: 600px;
+    background-color: var(--base-color);
+    position: relative;
+}
+
+.bgImgEducationOffers {
+    background-image: url(/Images/Rectangle187.png);
+    width: 370px;
+    height: 350.49px;
+    left: 100px;
+    top: 160px;
+    border-radius: 14.02px;
+   position: absolute;
+}
+
+.loremipsumTexts {
+    position: absolute;
+    /* bottom: 40px; */
+}
+
+.paragrapheducational {
+    font-family: Craftwork Grotesk;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+
+.educationalpercent {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    background-color: hsla(217, 89%, 64%, 1);
+    padding: 20px;
+    position: absolute;
+    left: 20px;
+    border: 1px;
+    border-radius: 5px;
+    top: 20px;
+    color: white;
+}
+
+.educationalfirstlorem {
+    font-family: Craftwork Grotesk;
+    position: absolute;
+    top: 120px;
+    color: white;
+    height: 30px;
+    width: 214px;
+    left: 20px;
+
+}
+
+.secondlorem {
+    font-family: Craftwork Grotesk;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    width: 269px;
+    height: 107px;
+    left: 20px;
+}
+
+.thirdlorem {
+    font-family: Craftwork Grotesk;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: white;
+    position: absolute;
+    top: 240px;
+    width: 269px;
+    height: 107px;
+    left: 20px;   
+}
+
+
+/* Educational offer second image styling */
+
+.bgImgEducationOffersTwo {
+    background-image: url(/Images/Rectangle188.png);
+    width: 370px;
+    height: 350.49px;
+    left: 480px;
+    top: 160px;
+    border-radius: 14.02px;
+    position: absolute;
+}
+
+/* third educational offer background styling */
+
+.bgImgEducationOffersThree {
+    background-image: url(/Images/Rectangle189.png);
+    width: 370px;
+    height: 350.49px;
+    right: 20px;
+    top: 160px;
+    border-radius: 14.02px;
+    position: absolute;
+}
+
+
+
+
+
+/* Footer styling */
+.footer_bg {
+    height: 500px;
+    background: linear-gradient(hsla(217, 89%, 64%, 1), hsla(262, 43%, 39%, 1));
+    position: relative;
+} 
+
+.footer_logo {
+    width: 171px;
+    height: 54px;
+    position: absolute;
+    top: 40px;
+    left: 130px;
+}
+
+.classofLogos {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoimg {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.paragraphfooterdiv {
+    width: 118px;
+    height: 76px;
+    font-family: Craftwork Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: white;
+    left: 130px;
+    top: 200px;
+    position: absolute;
+}
+
+/* centred footer styling */
+.bgcentredPage {
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 400px;
+    top: 40px;
+}
+
+.pages {
+    font-family: Craftwork Grotesk;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-bottom: 40px;
+}
+
+.footerworks,
+.pricing,
+.blog {
+font-family: Craftwork Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+margin-bottom: 20px;
+display: block;
+}
+
+/* service footer */
+.bgcentredPagetwo {
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 600px;
+    top: 40px;
+}
+
+
+
+
+ 
