@@ -17,7 +17,7 @@ import {MdMonitorHeart} from 'react-icons/md'
 import {RiUserSmileLine} from 'react-icons/ri'
 import Link from 'next/link';
 
-const mainlayout = ({children}: any) => {
+const Mainlayout = () => {
   return (
     <div className='bg-[#ECECEC] w-screen min-h-screen flex'>
 
@@ -80,7 +80,6 @@ const mainlayout = ({children}: any) => {
             </li>
           </ul>
         </aside>
-        <main>{children}</main> 
       </div> 
 
 
@@ -105,4 +104,4 @@ const mainlayout = ({children}: any) => {
   );
 };
 
-export default mainlayout
+export default Mainlayout

@@ -38,9 +38,6 @@ export default function RootLayout({children}: any) {
           </ThemeProvider>
         </body>
 
-      <body  suppressHydrationWarning={true} className='bg-[#ECECEC] overflow-x-hidden'>
-        <Mainlayout>{children}</Mainlayout>
-      </body>
 
     </html>
   )
