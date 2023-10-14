@@ -21,7 +21,7 @@ const Hero: FC<Props> = () => {
           <br />
           <div className="1500px:w-[55%] 1100px:w-[78%]  w-[90%] flex flex-col ">
             <Image
-              src={require("../../public/Group 2.png")}
+              src={require("../public/Group 2.png")}
               alt=""
               className=""
             />
@@ -39,7 +39,7 @@ const Hero: FC<Props> = () => {
         <div id="2" className=" flex 1000px:w-[40%] content-right items-center justify-end place-content-center	">
           {/* Hero Image */}
           <Image
-          src={require("../../public/hero.png")}
+          src={require("../public/hero.png")}
           alt=""
           className="w-4/5 bg-clip-content p-6 border-2  border-[#57388E]  h-[80] dark:shadow self-center	content-center items-center justify-center place-content-center"
           />  

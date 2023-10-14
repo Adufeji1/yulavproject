@@ -1,8 +1,8 @@
-import './globals.css'
+import '../../globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import { Josefin_Sans } from 'next/font/google'
-import { ThemeProvider } from './utils/theme-provider'
+import { ThemeProvider } from '@/app/utils/theme-provider' 
 import { ThemeSwitcher } from '@/components/ThemeSwitcher'
 
 const poppins = Poppins({

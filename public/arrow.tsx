@@ -1,66 +1,28 @@
 
 const Arrow = () => {
   return (
-    <div className="arrow">
-      <svg
-        width="49"
-        height="39"
-        viewBox="0 0 49 39"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g id="arrow-wave-right-down" clip-path="url(#clip0_76_20236)">
-          <path
-            id="Vector"
-            d="M34.002 22.75H42.002V16.25"
-            stroke="url(#paint0_linear_76_20236)"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            id="Vector_2"
-            d="M6.00195 19.5C7.77595 21.5865 10.962 22.8036 14.002 22.75C17.042 22.8036 20.228 21.5865 22.002 19.5C23.776 17.4135 26.962 16.1964 30.002 16.25C33.042 16.1964 36.002 17.875 38.002 19.5L42.002 22.75"
-            stroke="url(#paint1_linear_76_20236)"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </g>
-        <defs>
-          <linearGradient
-            id="paint0_linear_76_20236"
-            x1="40.938"
-            y1="21.1835"
-            x2="34.1022"
-            y2="19.7425"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="#4F8EF5" />
-            <stop offset="1" stop-color="#57388E" />
-          </linearGradient>
-          <linearGradient
-            id="paint1_linear_76_20236"
-            x1="37.214"
-            y1="21.1844"
-            x2="20.2954"
-            y2="5.1433"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="#4F8EF5" />
-            <stop offset="1" stop-color="#57388E" />
-          </linearGradient>
-          <clipPath id="clip0_76_20236">
-            <rect
-              width="48"
-              height="39"
-              fill="white"
-              transform="translate(0.00195312)"
-            />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
+  <div className="arrow">
+  <svg width={49} height={39} viewBox="0 0 49 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="arrow-wave-right-down" clipPath="url(#clip0_76_20236)">
+      <path id="Vector" d="M34.002 22.75H42.002V16.25" stroke="url(#paint0_linear_76_20236)" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
+      <path id="Vector_2" d="M6.00195 19.5C7.77595 21.5865 10.962 22.8036 14.002 22.75C17.042 22.8036 20.228 21.5865 22.002 19.5C23.776 17.4135 26.962 16.1964 30.002 16.25C33.042 16.1964 36.002 17.875 38.002 19.5L42.002 22.75" stroke="url(#paint1_linear_76_20236)" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
+    </g>
+    <defs>
+      <linearGradient id="paint0_linear_76_20236" x1="40.938" y1="21.1835" x2="34.1022" y2="19.7425" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#4F8EF5" />
+        <stop offset={1} stopColor="#57388E" />
+      </linearGradient>
+      <linearGradient id="paint1_linear_76_20236" x1="37.214" y1="21.1844" x2="20.2954" y2="5.1433" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#4F8EF5" />
+        <stop offset={1} stopColor="#57388E" />
+      </linearGradient>
+      <clipPath id="clip0_76_20236">
+        <rect width={48} height={39} fill="white" transform="translate(0.00195312)" />
+      </clipPath>
+    </defs>
+  </svg>
+</div>
+
   );
 };
 
