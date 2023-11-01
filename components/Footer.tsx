@@ -8,14 +8,14 @@ function Footer() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="m-2 p p md:mb-0">
-            <a href="#" className=" bg-white dark:bg-black flex p-3 mb-7 px-6 items-center">
+            <a href="#" className="w-fit bg-white dark:bg-black flex p-3 mb-7 px-6 items-center">
             <Image
                   src={require("./../public/logo.png")}
                   alt=""
                   className="mr-2" // Add some margin to separate the logo and text
                 />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Yulav
+                yulav.io
               </span>
             </a>
             <div className="flex flex-row gap-7">
