@@ -19,8 +19,12 @@ const Page: FC<Props> = (props) => {
   const [activeItem, setActiveItem] = useState(0);
 
   return (
-    <div>
-      <Heading title="Yulav" description="Yulav" keywords="Programming" />
+    <div >
+      {/* Fix my footer to remain at bottom no mattere the screen size */}
+      
+      <div className="">
+
+      <Heading title="yulav.io" description="Yulav, yulav, yulav.io" keywords="Programming, Learning, yulavio" />
       <Header open={open} setOpen={setOpen} activeItem={activeItem} />
       <Hero />
       <Sponsors dark/>
@@ -29,6 +33,7 @@ const Page: FC<Props> = (props) => {
       <Review />
       <Team />
       <Footer />
+      </div>
 
     </div>
   );

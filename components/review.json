@@ -1,0 +1,13 @@
+[
+    {
+      "name": "User1",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "../public/review.jpg"
+    },
+    {
+      "name": "User2",
+      "review": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "review.jpg"
+    }
+  ]
+  
