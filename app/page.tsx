@@ -7,7 +7,7 @@ import Hero from "../components/Hero";
 import Sponsors from "../components/Sponsors"
 import Achievements from "../components/Achievements"
 import Offers from "../components/Offers"
-import Review from "../components/Review"
+// import Review from "../components/Review"
 import Team from "../components/Team"
 import Footer from "../components/Footer"
 
@@ -30,7 +30,7 @@ const Page: FC<Props> = (props) => {
       <Sponsors dark/>
       <Achievements dark />
       <Offers />
-      <Review />
+      {/* <Review /> */}
       <Team />
       <Footer />
       </div>
