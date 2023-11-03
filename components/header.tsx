@@ -4,6 +4,7 @@ import React, { FC, useState } from "react";
 import NavItems from "../app/utils/NavItems";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { HiOutlineMenuAlt3, HiOutlineUserCircle } from "react-icons/hi";
+import Button from "./ui/Button";
 
 type Props = {
   setOpen: (open: any) => void;
@@ -35,18 +36,27 @@ const Header: React.FC<Props> = ({ setOpen }) => {
             <div>
               <NavItems isMobile={false} />
             </div>
-            <div className="flex">
-              <ThemeSwitcher />
-              <HiOutlineMenuAlt3
-                size={25}
-                className="cursor-pointer 800px:hidden dark:text-white text-black"
-                onClick={() => setOpenSidebar(true)}
-              />
-              <HiOutlineUserCircle
-                size={25}
-                className="cursor-pointer dark:text-white text-black"
-                onClick={() => setOpen(true)}
-              />
+            <div className="flex gap-3">
+              <div className="flex">
+                <ThemeSwitcher />
+                <HiOutlineMenuAlt3
+                  size={25}
+                  className="cursor-pointer 800px:hidden dark:text-white text-black"
+                  onClick={() => setOpenSidebar(true)}
+                />
+                <HiOutlineUserCircle
+                  size={25}
+                  className="cursor-pointer dark:text-white text-black"
+                  onClick={() => setOpen(true)}
+                />
+              </div>
+              {/* <div>
+                <div className="bg-gradient-to-r from-green-400 to-blue-500 py-2 ">
+                  <Button href={"/login"} className="bg-white p-4 text-xl">
+                    Login
+                  </Button>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
