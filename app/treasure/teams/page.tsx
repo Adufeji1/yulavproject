@@ -91,9 +91,9 @@ const teams = [
   },
 ];
 
-const page = () => {
+const Page = () => {
   const [open, setOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState(0);
+  const activeItem = 0
   return (
     <div>
       <div  className="min-h-screen">
@@ -104,7 +104,7 @@ const page = () => {
         <h4 className="font-medium text-base	 text-purple-600">The team</h4>
         <h2 className="text-5xl leading-[4rem]	font-semibold">Meet the team behind yulav.io</h2>
         <p className="font-normal	 text-xl	text-[#667085] leading-7	">
-          We're a small team that loves to create great experiences and make
+          We are a small team that loves to create great experiences and make
           meaningful <br></br>connections between builders and customers. Join
           our remote ream!
         </p>
@@ -130,4 +130,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

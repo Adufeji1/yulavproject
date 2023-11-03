@@ -4,10 +4,13 @@ import React, { FC, useState } from "react";
 import NavItems from "../app/utils/NavItems";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { HiOutlineMenuAlt3, HiOutlineUserCircle } from "react-icons/hi";
-import Button from "./ui/Button";
+// import Button from "./ui/Button";
 
 type Props = {
   setOpen: (open: any) => void;
+  open: boolean;
+  activeItem:any
+
 };
 
 const Header: React.FC<Props> = ({ setOpen }) => {

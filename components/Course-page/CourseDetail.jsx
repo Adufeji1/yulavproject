@@ -97,7 +97,7 @@ const CourseDetail = ()=>{
                                         <div className="top-area flex justify-between items-center my-3">
                                             <div className="user-highlight flex gap-1 items-center font-semibold text-lg">
                                                 <div className="user-img w-10 h-10 rounded-3xl relative overflow-hidden">
-                                                    <Image src={image} layout="fill" objectFit="contain" />
+                                                    <Image src={image} layout="fill" alt="user" objectFit="contain" />
                                                 </div>
                                                 <h2>Lina</h2>
                                             </div>
