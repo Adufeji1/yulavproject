@@ -114,7 +114,7 @@ export default function Page() {
                         <div className="search-icon text-xl">
                             <BiSearchAlt />
                         </div>
-                        <input onChange={(e) => {setCourseSeaarch(e.target.value)}} className='w-full border-none outline-none placeholder:text-gray-900 text-gray-950' type="text" placeholder='Search by topics, tutor or category' />
+                        <input onChange={(e) => {setCourseSeaarch(e.target.value)}} className='bg-transparent w-full border-none outline-none placeholder:text-gray-900 text-gray-950' type="text" placeholder='Search by topics, tutor or category' />
                     </div>
 
                     {/* SEARCH / TOGGLE OUTPUT */}
