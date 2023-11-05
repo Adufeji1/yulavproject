@@ -8,7 +8,7 @@ export default function Offers() {
       <p>Top Education offers and deals are listed here</p>
 
       <div className='educational_img'>
-        <img src="/Images/Rectangle 187.png" alt="" />
+        <Image src="/Images/Rectangle 187.png" alt="" />
         <p>50%</p>
         <p>Lorem ipsum dolor</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
@@ -16,7 +16,7 @@ export default function Offers() {
       </div>
 
       <div className='educational_img'>
-        <img src="/Images/Rectangle 188.png\" alt="" />
+        <Image src="/Images/Rectangle 188.png\" alt="" />
         <p>50%</p>
         <p>Lorem ipsum dolor</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
@@ -24,7 +24,7 @@ export default function Offers() {
       </div>
 
       <div className='educational_img'>
-        <img src="/Images/Rectangle 189.png" alt="" />
+        <Image src="/Images/Rectangle 189.png" alt="" />
         <p>50%</p>
         <p>Lorem ipsum dolor</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>

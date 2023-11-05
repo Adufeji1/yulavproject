@@ -16,10 +16,10 @@ export default function Checkout() {
           <p className='checkoutCartType'>Cart type</p>
 
           <div className='paymentchannel'>
-            <img className='paymentImageone' src="Images/Paypal.png" alt="Paypal_image" />
-            <img className='paymentImagetwo' src="Images/am_amex_06 1.png" alt="" />
-            <img className='paymentImagethree' src="Images/download 1.png" alt="" />
-            <img className='paymentImageFour' src="Images/Frame 2093.png" alt="" />
+            <Image className='paymentImageone' src="Images/Paypal.png" alt="Paypal_image" />
+            <Image className='paymentImagetwo' src="Images/am_amex_06 1.png" alt="" />
+            <Image className='paymentImagethree' src="Images/download 1.png" alt="" />
+            <Image className='paymentImageFour' src="Images/Frame 2093.png" alt="" />
           </div>
 
       {/* Forms */}
@@ -59,7 +59,7 @@ export default function Checkout() {
           <p className='summaryp'>Summary</p>
 
           <div className='bgImageSummary'>
-            <img className='summaryImg' src="/Images/confident-teacher-explaining-lesson-pupils 1.png" alt="" />
+            <Image className='summaryImg' src="/Images/confident-teacher-explaining-lesson-pupils 1.png" alt="" />
             <div className='summaryparagraph'>
               <p className='summaryfirstp'>adipising elit, sed do eiusmod tempor</p>
               <p className='summarysecondp'>Lorem ipsum dollar...</p>
@@ -70,7 +70,7 @@ export default function Checkout() {
           {/* second summary image */}
 
           <div className='bgImageSummarytwo'>
-            <img className='summaryImg' src="/Images/confident-teacher-explaining-lesson-pupils 1.png" alt="" />
+            <Image className='summaryImg' src="/Images/confident-teacher-explaining-lesson-pupils 1.png" alt="" />
             <div className='summaryparagraph'>
               <p className='summaryfirstp'>adipising elit, sed do eiusmod tempor</p>
               <p className='summarysecondp'>Lorem ipsum dollar...</p>

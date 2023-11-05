@@ -59,7 +59,7 @@ export default function Page() {
             {/* WELCOME */}
             <div className="welcome-highlight h-32 flex py-3 px-7 container m-auto">
                 <div className="welcome-text md:text-4xl text-3xl font-semibold self-end text-fuchsia-800 ">
-                    <h1>Welcome back. <br />Let's continue!</h1>
+                    <h1>Welcome back. <br />Lets continue!</h1>
                 </div>
             </div>
 

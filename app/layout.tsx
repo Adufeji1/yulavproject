@@ -1,4 +1,4 @@
-import Mainlayout from '@/components/mainlayout'
+
 import './globals.css'
 
 import type { Metadata } from 'next'
@@ -37,7 +37,6 @@ export default function RootLayout({children}: any) {
           {children}
           </ThemeProvider>
         </body>
-
 
     </html>
   )

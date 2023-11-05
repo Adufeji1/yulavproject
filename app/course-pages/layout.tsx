@@ -1,5 +1,5 @@
 import "./courseAll.css"
-const CourseLayout = ({children}) =>{
+const CourseLayout = ({children}:any) =>{
     return(
         <>
             {children}

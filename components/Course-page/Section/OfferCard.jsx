@@ -14,7 +14,7 @@ const OfferCard = ()=>{
                     </div>
                     <div className="offer-desc">
                         <h1 className="uppercase py-2 pb-5">For instructors</h1>
-                        <p>TOTC's school management software helps traditional and online schools manage scheduling.</p>
+                        <p>TOTCs school management software helps traditional and online schools manage scheduling.</p>
                     </div>
 
                 </div>
