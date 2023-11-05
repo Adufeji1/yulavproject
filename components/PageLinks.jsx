@@ -13,9 +13,13 @@ const PageLinks = () => {
     }
 
     const linkObj = [
-        {"name": "Home", "link": "/"},
-        {"name": "Course Home", "link": "/course-pages"},
-        {"name": "Course Detail", "link": "/course-pages/detail"},
+        {name: "Home", "link": "/"},
+        {name: "Course Home", "link": "/course-pages"},
+        {name: "Course Detail", link: "/course-pages/detail"},
+        {name: "Registration", link: "/auth/register"},
+        {name: "Login", link: "/auth/login"},
+        {name: "Activation", link: "/auth/activate"},
+        {name: "Contact Us", link: "/contact-us"},
     ]
     
   return (
