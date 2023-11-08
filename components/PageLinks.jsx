@@ -6,7 +6,7 @@ import Link from "next/link";
 import { PiEyeBold, PiBookmark, PiBookmarkBold } from "react-icons/pi";
 
 const PageLinks = () => {
-    const [pgl, setPgl] = useState(true);
+    const [pgl, setPgl] = useState(false);
 
     const linkFunc = ()=>{
         setPgl(!pgl)
