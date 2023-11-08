@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
-import PageLinks from "../../components/PageLinks";
-
 export default function ContactUs(){
     let image = '/neo-img/unsplash.jpg';
     // let image = '/unsplash.jpg';
@@ -46,7 +44,6 @@ export default function ContactUs(){
 
     return(
         <div className="contact-us bg-white text-black min-h-screen">
-            <PageLinks />
             {/* HEADER */}
             <header className="home-header flex justify-between py-4 px-3 bg-white border-b-2">
                 <div className="logo w-24 relative">
