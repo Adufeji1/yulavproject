@@ -18,7 +18,7 @@ export const navItemsData = [
   },
   {
     name: "Sign Up",
-    url: "/treasure/signup",
+    url: "/auth/register",
   },
   {
     name: "Teams",
