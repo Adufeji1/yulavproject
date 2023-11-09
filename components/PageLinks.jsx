@@ -20,6 +20,8 @@ const PageLinks = () => {
         {name: "Login", link: "/auth/login"},
         {name: "Activation", link: "/auth/activate"},
         {name: "Contact Us", link: "/contact-us"},
+        {name: "Admin", link: "/admin"},
+        {name: "Team", link: "/teams"},
     ]
     
   return (
