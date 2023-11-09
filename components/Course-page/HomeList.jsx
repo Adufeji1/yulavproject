@@ -93,10 +93,8 @@ export default function Page() {
                     </div>
                     {/* COURSES LIST */}
                     <div className="course-list grid grid-cols-4 max-lg:grid-cols-3 max-[470px]:grid-cols-1 max-md:grid-cols-2 gap-3">
-                        <BestCourseCard />
-
-                        {/* JUMK EXTRA */}
-                        <BestCourseCard />
+                        <CourseCard />
+                        <CourseCard />
                     </div>
                 </div>
             </div>
