@@ -8,11 +8,11 @@ const Hero: FC<Props> = () => {
   return (
     <div
       id="0"
-      className="  1000px:justify-center justify-left   my-5  w-full  flex flex-row relative 1000px:items-center"
+      className=" max-[1000px]:justify-center 1000px:justify-center justify-left   my-5  w-full  flex flex-row relative 1000px:items-center"
     >
       <div
         id="1"
-        className="1000px:w-[50%] flex flex-col 1000px:mt-[0px] text-center 1000px:text-left "
+        className="1000px:w-[50%] flex flex-col 1000px:mt-[0px]  text-center 1000px:text-left "
       >
         {/* Hero Text */}
         <h2 className="dark:text-white text-black text-[40px]  w-full 1000px:text-[70px] font-[600] font-Josefin py-2 1000px:leading-[75px] 1500px:w-[50%]">
