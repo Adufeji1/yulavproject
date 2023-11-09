@@ -7,11 +7,11 @@ import Image from "next/image";
 import BestCourseCard from './Section/BestCourseCard';
 import CourseCard from './Section/CourseCard';
 import CategoryBtn from './Section/CategoryBtn';
-import GradientBtn from './Section/GradientBtn';
+import GradientBtn from '@/components/ui/GradientBtn';
 
 // ICONS
 import { BiSearchAlt } from "react-icons/bi"
-import { BsFillArrowRightCircleFill } from "react-icons/bs"
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 // import image from "./unsplash.jpg";
 export default function Page() {
@@ -93,10 +93,8 @@ export default function Page() {
                     </div>
                     {/* COURSES LIST */}
                     <div className="course-list grid grid-cols-4 max-lg:grid-cols-3 max-[470px]:grid-cols-1 max-md:grid-cols-2 gap-3">
-                        <BestCourseCard />
-
-                        {/* JUMK EXTRA */}
-                        <BestCourseCard />
+                        <CourseCard />
+                        <CourseCard />
                     </div>
                 </div>
             </div>
@@ -127,7 +125,9 @@ export default function Page() {
                             <CourseCard/>
                             <CourseCard/>
                         </div>
-                        <GradientBtn text={"See more"} />
+                        <GradientBtn style='mx-auto my-7 p-4 font-semibold cursor-pointer'>
+                            <h2 className='capitalize'>See more</h2><BsFillArrowRightCircleFill />
+                        </GradientBtn>
                     </div>
                 </div>
             </div>
