@@ -24,7 +24,7 @@ const Page: FC<Props> = (props) => {
       
       <div className="">
 
-      <Heading title="yulav.io" description="Yulav, yulav, yulav.io" keywords="Programming, Learning, yulavio" />
+      <Heading title="yulav.io | Learning" description="Yulav, yulav, yulav.io" keywords="Programming, Learning, yulavio" />
       <Header open={open} setOpen={setOpen} activeItem={activeItem} />
       <Hero />
       <Sponsors dark/>

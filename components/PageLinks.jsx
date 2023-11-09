@@ -6,7 +6,7 @@ import Link from "next/link";
 import { PiEyeBold, PiBookmark, PiBookmarkBold } from "react-icons/pi";
 
 const PageLinks = () => {
-    const [pgl, setPgl] = useState(true);
+    const [pgl, setPgl] = useState(false);
 
     const linkFunc = ()=>{
         setPgl(!pgl)
@@ -35,7 +35,7 @@ const PageLinks = () => {
                     {/* MAPPING */}
                     {linkObj.map((item, index)=>{
                         return(   
-                            <Link href={item.link}>
+                            <Link href={item.link} key={index} >
                                 <div className="w-full h-12 font-semibold bg-slate-200 rounded-md border-b-2 border-black/70 shadow-md shadow-black/30 items-center flex gap-2 p-2">
                                     <PiBookmarkBold className="text-2xl" />
                                     <h2>{item.name}</h2>
