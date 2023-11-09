@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import  Header  from '@/components/header';
 
 export default function ContactUs(){
     let image = '/neo-img/unsplash.jpg';
@@ -15,6 +16,8 @@ export default function ContactUs(){
     let [lastName, setLastName] = useState("");
     let [message, setMessage] = useState("");
     let [phone, setPhone] = useState("");
+    const [open, setOpen] = useState(false);
+    const activeItem = 0
 
     const reload = useRouter();
 
@@ -45,7 +48,7 @@ export default function ContactUs(){
     return(
         <div className="contact-us bg-white text-black min-h-screen">
             {/* HEADER */}
-            <header className="home-header flex justify-between py-4 px-3 bg-white border-b-2">
+            {/* <header className="home-header flex justify-between py-4 px-3 bg-white border-b-2">
                 <div className="logo w-24 relative">
                     <Image layout="fill" objectFit="contain" src="/logo1.png" alt="logo" />
                 </div>
@@ -64,7 +67,8 @@ export default function ContactUs(){
                     </div>
                     <div className="profile-link"></div>
                 </div>
-            </header>
+            </header> */}
+            <Header open={open} setOpen={setOpen} activeItem={activeItem} />
 
             {/* MAIN */}
             <div className="flex justify-around items-center">
