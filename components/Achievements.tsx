@@ -27,7 +27,7 @@ const Achievements: FC<Props> = ({ dark }) => {
   return (
     <div
       id="0"
-      className="border-x-0 justify-center py-10  mx-auto my-5 w-full flex flex-row relative items-center"
+      className="border-x-0 justify-between py-10 max-[1000px]:gap-[9px] mx-auto my-5 w-full flex max-[1000px]:flex-col relative items-center"
     >
       <div
         id="1"
