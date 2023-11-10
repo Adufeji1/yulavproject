@@ -1,5 +1,7 @@
+"use client"
+import React, { useState } from 'react';
 import Image from 'next/image'
-
+import Link from 'next/link'
  import { VscProject } from 'react-icons/vsc';
  import {  GoHomeFill } from 'react-icons/go';
  import {  RiCalendarTodoFill,RiAppsFill, RiArrowDropDownLine } from 'react-icons/ri';
@@ -13,6 +15,12 @@ import Image from 'next/image'
 
 
 export default function Home() {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleModalToggle = () => {
+    setIsModalOpen(!isModalOpen);
+  };
   return (
     <>
 
@@ -29,30 +37,31 @@ export default function Home() {
   <div className= "flex pl-[1rem]  space-x-2  pb-[.5rem] mb-4">
   <span className =" pt-[.5rem] text-[1.5rem] "><GoHomeFill className ="bg-slate-200 p-[.35rem] rounded-[5px]" />
   </span>
-  <li className = 'pt-3'>Dashboard</li>
+  <li className = 'pt-[.5rem]'>Dashboard</li>
   </div>
 
   <div className= "flex pl-[1rem] bg-purple-900  space-x-2  pb-[.5rem] mb-4">
   <span className =" text-[1.5rem] pt-[.5rem]"><VscProject className ="bg-slate-200 p-[.35rem] rounded-[5px]" />
   </span>
-  <li className = 'pt-3 text-white'>Project</li>
+  <Link href="/admin/project">  <li className = 'pt-[.5rem] text-white'>Project</li></Link>
   </div>
   <div className= "flex pl-[1rem]  space-x-2  pb-[.5rem] mb-4">
   <span className ="pt-[.5rem] text-[1.5rem] "><RiCalendarTodoFill className ="bg-slate-200 p-[.35rem] rounded-[5px]" />
   </span>
-  <li className = 'pt-3'>To-do list</li>
+
+  <Link href="/admin/todo-list">  <li className = 'pt-[.5rem]'>To-do list</li></Link>
   </div>
 
   <div className= "flex pl-[1rem]  space-x-2 pb-[.5rem] mb-4">
   <span className ="pt-[.5rem] text-[1.5rem] "><RiAppsFill className ="bg-slate-200 p-[.35rem] rounded-[5px]" />
   </span>
-  <li className = 'pt-3'>Teams</li>
+  <Link href="/admin/teams"><li className = 'pt-[.5rem]'>Teams</li></Link>
   </div>
 
   <div className= "flex pl-[1rem]  space-x-2  pb-[.5rem] mb-4">
   <span className =" pt-[.5rem] text-[1.5rem] "><VscProject className ="bg-slate-200 p-[.35rem] rounded-[5px]" />
   </span>
-  <li className = 'pt-3'>Messages</li>
+  <Link href="/admin/message"> <li className = 'pt-[.5rem]'>Messages</li></Link>
 
   <span className='pt-[.5rem] text-[1rem] ml-[2rem] bg-purple-900 text-white py-[.1rem] px-1 rounded-full'>4</span>
   </div>
@@ -60,7 +69,7 @@ export default function Home() {
   <div className= "flex pl-[1rem]  space-x-2  pb-[.5rem] mb-4">
   <span className =" pt-[.5rem] text-[1.5rem] "><VscProject className ="bg-slate-200 p-[.35rem] rounded-[5px]" />
   </span>
-  <li className = 'pt-3'>Activity</li>
+  <Link href="/admin/activity">  <li className = 'pt-[.5rem]'>Activity</li></Link>
   </div>
 
   <div className= "flex pl-[1rem]  space-x-2  pb-[.5rem] mb-4">
@@ -103,7 +112,25 @@ export default function Home() {
 <h4 className ='text-[8px]'>@ekomessiet009</h4>
 </div>
      </div>
-     <span><RiArrowDropDownLine className = 'text-[2rem]' /></span>
+     <div className='relative'>
+
+     <span onClick={handleModalToggle}>
+          <RiArrowDropDownLine className="text-[2rem] cursor-pointer" />
+        </span>
+
+         {/* Modal */}
+      {isModalOpen && (
+        <div className ='absolute modal right-[-2.4rem] top-[3.5rem]'>
+
+        
+        <div className="  bg-slate-400 h-[10rem] w-[15rem] rounded-[10px]">
+         
+          <p>profile</p>
+          <button onClick={handleModalToggle}>Close Modal</button>
+        </div>
+        </div>
+      )}
+     </div>
      </section>
     
   </div>

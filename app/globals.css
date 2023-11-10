@@ -1,3 +1,6 @@
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,17 +8,12 @@
 
 
 
-body {
-    @apply bg-slate-200
-  
-     
-  }
+
   
 
 
 li {
     list-style: none;
-    /* padding: .5rem 1rem; */
     font-size: 16px;
   }
   
