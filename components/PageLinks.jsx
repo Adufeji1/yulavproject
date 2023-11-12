@@ -21,15 +21,15 @@ const PageLinks = () => {
         {name: "Activation", link: "/auth/activate"},
         {name: "Contact Us", link: "/contact-us"},
         {name: "Admin", link: "/admin"},
-        {name: "Team", link: "/teams"},
+        {name: "Team", link: "/treasure/teams"},
     ]
     
   return (
     <>
         {pgl ? 
-            <div className={`duration-75 w-full bg-black/20 backdrop-blur-sm ${pgl ? 'h-screen overflow-auto' : 'h-0 overflow-hidden'} fixed z-50 flex justify-end`}>
+            <div className={`dark:text-gray-900 duration-75 w-full bg-black/20 backdrop-blur-sm ${pgl ? 'h-screen overflow-auto' : 'h-0 overflow-hidden'} fixed z-50 flex justify-end`}>
                 <h2 className="p-2 bg-slate-200 h-fit flex-1 m-1 text-center mx-2 shadow font-extrabold shadow-slate-700">Pages Done</h2>
-                <button onClick={linkFunc} className="self-start my-2 mb-7 bg-red-700 text-slate-50 w-fit p-2 text-xl shadow shadow-slate-700 rounded float-right mx-4 hover:bg-slate-600">
+                <button onClick={linkFunc} className="self-start my-2 mb-7 bg-red-700 text-slate-50 dark:text-gray-900 w-fit p-2 text-xl shadow shadow-slate-700 rounded float-right mx-4 hover:bg-slate-600">
                     <PiEyeBold className="hover:scale-105" />
                 </button>
                 {/* LINK SIDE */}
@@ -48,7 +48,7 @@ const PageLinks = () => {
                 </div>
             </div> :
             <div className={`duration-75 w-full h-screen pointer-events-none fixed z-50 flex justify-end`}>
-                <button onClick={linkFunc} className="pointer-events-auto self-end my-2 mb-7 bg-stone-300 w-fit p-2 text-xl shadow shadow-slate-700 rounded float-right mx-4 hover:bg-slate-600">
+                <button onClick={linkFunc} className="pointer-events-auto self-end my-2 mb-7 bg-stone-300 text-gray-900 w-fit p-2 text-xl shadow shadow-slate-700 rounded float-right mx-4 hover:bg-slate-600">
                     <PiEyeBold className="hover:scale-105" />
                 </button>
             </div>
