@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import  Header  from '@/components/header';
-
+import LandingHeader from "@/components/Headers/LandingHeader"
 export default function ContactUs(){
     let image = '/neo-img/unsplash.jpg';
     // let image = '/unsplash.jpg';
@@ -68,7 +68,7 @@ export default function ContactUs(){
                     <div className="profile-link"></div>
                 </div>
             </header> */}
-            <Header open={open} setOpen={setOpen} activeItem={activeItem} />
+            <LandingHeader />
 
             {/* MAIN */}
             <div className="flex justify-around items-center">

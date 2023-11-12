@@ -4,6 +4,7 @@ import Heading from "../../utils/Heading";
 import Header from "@/components/header";
 import Footer from "@/components/Footer";
 import Teams from "@/components/Teams";
+import LandingHeader from "@/components/Headers/LandingHeader"
 const teams = [
   {
     _id: "001",
@@ -98,7 +99,7 @@ const Page = () => {
     <div>
       <div  className="min-h-screen">
 
-      <Header open={open} setOpen={setOpen} activeItem={activeItem} />
+      <LandingHeader />
       <div className=" container mx-auto flex  text-center mt-9 flex-col justify-center ">
         <div className="header">
         <h4 className="font-medium text-base	 text-purple-600">The team</h4>
