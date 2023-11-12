@@ -6,7 +6,7 @@ import Switches from "@/components/Headers/dispatch/Switches"
 
 const LandingHeader = () => {
   return (
-    <div className="h-24 flex items-center gap-10 justify-between px-5 shadow-sm shadow-slate-700/30 sticky top-0 backdrop-blur-2xl z-50">
+    <div className="h-24 flex items-center gap-10 justify-between px-5 shadow-sm shadow-slate-700/30 sticky top-0 backdrop-blur-2xl z-30">
         <div className="logo">
             <Link href={"/"}>
                 <div className="flex items-center gap-1">
