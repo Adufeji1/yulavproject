@@ -5,7 +5,8 @@ import { useTheme } from "next-themes";
 
 const Sponsor = () => {
   const { theme, setTheme } = useTheme();
-  const currentmood = window.localStorage.getItem("theme")
+  const currentmood = typeof localStorage !== 'undefined' ? localStorage.getItem("theme") : null;
+
 
   // Define a function to determine the image source based on dark mode
   let imgName;

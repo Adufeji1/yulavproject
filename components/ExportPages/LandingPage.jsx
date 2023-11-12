@@ -25,7 +25,7 @@ const LandingPage = () =>{
             <div className="sm:container gap-4 py-7 px-3 flex justify-evenly items-center md:px-7">
                 {/* TEXT AREA */}
                 <div className="hero-text flex flex-col gap-5 w-full sm:w-auto">
-                    <h2 className="text-2xl sm:text-4xl md:text-5xl font-semibold">
+                    <h2 className="text-2xl sm:text-4xl md:text-4xl font-semibold">
                         Unleash Your{" "}
                         <span className="text-[#3c75d0]">
                             Curiosity

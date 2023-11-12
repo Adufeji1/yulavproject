@@ -10,6 +10,7 @@ import Offers from "../components/Offers"
 // import Review from "../components/Review"
 import Team from "../components/Team"
 import Footer from "../components/Footer"
+import LandingPage from './../components/ExportPages/LandingPage';
 
 
 interface Props {}
@@ -25,14 +26,18 @@ const Page: FC<Props> = (props) => {
       <div className="">
 
       <Heading title="yulav.io | Learning" description="Yulav, yulav, yulav.io" keywords="Programming, Learning, yulavio" />
-      <Header open={open} setOpen={setOpen} activeItem={activeItem} />
-      <Hero />
-      <Sponsors dark/>
-      <Achievements dark />
-      <Offers />
+      {/* <Header open={open} setOpen={setOpen} activeItem={activeItem} /> */}
+      {/* <Hero /> */}
+      {/* <Sponsors dark/> */}
+      {/* <Achievements dark /> */}
+      {/* <Offers /> */}
       {/* <Review /> */}
-      <Team />
-      <Footer />
+      {/* <Team /> */}
+      {/* <Footer /> */}
+      <LandingPage />
+
+
+
       </div>
 
     </div>

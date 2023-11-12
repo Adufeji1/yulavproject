@@ -13,7 +13,12 @@ const ReviewCard = ()=>{
         },
         {
             "name": "Freelancer, Luxlife",
-            "comment": "I would choos yulav over and over again.",
+            "comment": "I would choos yulav.io over and over again.",
+            "image": "/review2.png"
+          },
+        {
+            "name": "Drinker, Garri Int.",
+            "comment": "I would choose yulav.io over and over again.",
             "image": "/review2.png"
           }
       ]
